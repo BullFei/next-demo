@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
+import Layout from './components/layout'
 
 export default class nestStyle extends Component {
   render() {
     return (
+      <Layout>
       <div>
         {/* 内联样式写法 */}
         <style jsx>{
@@ -16,6 +18,7 @@ export default class nestStyle extends Component {
         </style>
         <h1>hello world</h1>
       </div>
+      </Layout>
     )
   }
 }
