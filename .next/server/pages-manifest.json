@@ -1,5 +1,13 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/components/layout": "pages/components/layout.html",
+  "/detail": "pages/detail.html",
+  "/films": "pages/films.js",
+  "/": "pages/index.html",
+  "/list": "pages/list.html",
+  "/nestStyle": "pages/nestStyle.html",
+  "/nopermission": "pages/nopermission.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }
